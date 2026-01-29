@@ -351,6 +351,12 @@ img{ max-width:100%; display:block; }
   grid-template-columns: 1fr 1fr;
   gap:24px;
 }
+/* --- Education: center the Bachelor's card under the first two --- */
+.edu-center{
+  grid-column: 1 / -1;   /* span both columns */
+  max-width: 520px;      /* keeps it nicely sized */
+  margin: 0 auto;        /* centers it */
+}
 
 /* -------------------------
    Lists
@@ -425,3 +431,4 @@ img{ max-width:100%; display:block; }
     margin-top:14px;
   }
 }
+
