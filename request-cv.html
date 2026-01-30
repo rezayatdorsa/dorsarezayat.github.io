@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Request CV | Dorsa Rezayat</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html#home">DR</a>
+    <nav class="nav">
+      <a href="index.html#about">About</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#work">Work</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a class="btn btn-ghost" href="index.html">Back</a>
+  </header>
+
+  <main class="container" style="padding-top:120px;">
+    <section class="section" style="margin-top:40px;">
+      <div class="section-head">
+        <h2>Request my CV</h2>
+      </div>
+
+      <div class="card" style="max-width:720px;">
+        <p class="muted">
+          Please share your email and a short note. I’ll follow up and send the CV directly.
+        </p>
+
+        <!-- IMPORTANT: replace the action URL below with your Formspree endpoint -->
+        <form action="https://formspree.io/f/mrekoenp" method="POST">
+          <label class="muted small">Name</label>
+          <input class="input" name="name" type="text" required placeholder="Your name" />
+
+          <div style="height:12px;"></div>
+
+          <label class="muted small">Email</label>
+          <input class="input" name="email's" type="email" required placeholder="your@email.com" />
+
+          <div style="height:12px;"></div>
+
+          <label class="muted small">Message</label>
+          <textarea class="input" name="message" rows="5" required placeholder="What is this for?"></textarea>
+
+          <div style="height:16px;"></div>
+
+          <button class="btn" type="submit">Send request</button>
+        </form>
+
+        <p class="muted small" style="margin-top:12px;">
+          Your info is used only to respond to this request.
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
