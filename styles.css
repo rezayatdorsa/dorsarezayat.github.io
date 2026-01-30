@@ -289,6 +289,7 @@ img{ max-width:100%; display:block; }
   cursor:pointer;
 }
 
+
 /* -------------------------
    Quick links (LEFT, under name)
    matches your updated HTML:
@@ -445,4 +446,5 @@ img{ max-width:100%; display:block; }
 .input:focus{
   border-color: rgba(125,211,252,0.45);
 }
+
 
